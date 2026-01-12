@@ -4,7 +4,7 @@
 
 A high-performance, full-stack application that visualizes 2,000+ geospatial data points in a 3D environment. Built for speed, accuracy, and smooth user interaction.
 
-## 🚀 The "Senior" Approach
+## 🚀 The Approach
 This project goes beyond basic map rendering. Key architectural decisions include:
 - **MapLibre GL JS & Deck.gl:** Chosen for hardware-accelerated (WebGL) rendering to ensure 60FPS performance even with high data density.
 - **Bounding Box (BBox) Strategy:** Instead of fetching 2,000 points at once, the frontend requests only the data visible in the current viewport, significantly reducing payload size.
